@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+<head>
+    <link rel="stylesheet" href="admin.css">
+    <script src="../static/javascript/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="../static/styles/w3.css">
+    <script src="../static/fontawesome-free-5.13.0-web/js/all.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin|HOME</title>
+</head>
+<!-- close head -->
+
+<!-- body -->
+<body>
+    <!-- header container -->
+<div class="header w3-black"id="topnav">
+    <!-- header content  -->
+    <a href="#"class="w3-black logo w3-xlarge">LOGO</a>
+    <!-- <a href="javascript:void(0);"> -->
+        <div id="btn">
+            <div id="top"></div>
+            <div id="middle"></div>
+            <div id="bottom"></div>
+        </div>
+    
+
+    <a href="#"class="w3-right"title="Your Profile"><i class="fa fa-user-circle"></i></a>
+    <a href="#"class="w3-right"title="Your inbox"><i class="fa fa-envelope"></i></a>
+    
+</div>
+<!-- fixed side nav  -->
+<div class="sidenav w3-white">
+    <a href="#"class="navlinks"title="view published post"onclick="openNav(event,'publishedPost')">Published post</a>
+    <a href="#"class="navlinks"title="view unpublished post"onclick="openNav(event,'unpublishedPost')">Unpublished post</a>
+    <a href="#"class="navlinks"title="view charts and analysis"onclick="openNav(event,'chart')">Chart</a>
+    <a href="#"class="navlinks"title="send multiple message to your newsletter subscribers"onclick="openNav(event,'newsletter')">Newsletter</a>
+    <a href="#"class="navlinks"title="view profile details"onclick="openNav(event,'profile')">Profile</a>
+    <a href="#"class="navlinks"title="Settings"onclick="openNav(event,'settings')">Settings</a>
+    <a href="#"class="navlinks"title="FAQ and documentation"onclick="openNav(event,'help')">Help</a>
+    <a href="#"class="navlinks"title="Logout">Logout</a>
+</div>
+<!-- hambuger side nav -->
+<div id="box">   
+     <div id="items">
+
+    <div class="item navlinks"onclick="openNav(event,'newPost')">New post</div>
+    <div class="item navlinks"onclick="openNav(event,'publishedPost')">Published post</div>
+    <div class="item navlinks"onclick="openNav(event,'unpublishedPost')">Unpublished post</div>
+        <div class="item navlinks"onclick="openNav(event,'chart')">Chart</div>
+            <div class="item navlinks"onclick="openNav(event,'newsletter')">Newsletter</div>
+                <div class="item navlinks"onclick="openNav(event,'profile')">Profile</div>
+                    <div class="item navlinks"onclick="openNav(event,'settings')">Settings</div>
+                        <div class="item navlinks"onclick="openNav(event,'help')">Help</div>
+                            <div class="item navlinks">Logout</div>
+
+    </div>
+</div>
+
+
+
+<!-- <div class="main"> -->
+    <div class="main" id="newPost">
+        <h1>New post</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Laudantium, expedita totam cupclass="main" iditate nesciunt iste iusto repellendus? 
+         Aliquam deserunt illum explicabo quisquam recusandae 
+        odit similique non aspernatur obcaecati, inventore assumenda dicta.</p>
+
+</div>
+<div class="main" id="publishedPost">
+    <h1>Published post</h1>
+  <p> 
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit
+    . Tenetur, quae perspiciatis illum ipsa quod ad quasi,
+     ex class="main" id veniam a
+     fugiat excepturi nihil sit quo quas earum vel officia voluptas?
+  </p>
+</div>
+<div class="main" id="unpublishedPost">
+    <h1>Unpublished post</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         Distinctio, nam illo! Perspiciatis deleniti possimus amet 
+         veniam repellendus, optio quaerat voluptatibus rerum
+         corrupti laborum tempora. Modi voluptatem et a tempora porro.</p>
+
+</div>
+<div class="main" id="chart">
+    <h1>Charts</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Suscipit, consequuntur? Tempora dolores cumque, 
+        ut sed sint excepturi facilis repudiandae maxime ab officiis voluptatibu
+        s iure accusamus quisquam doloremque quos? Eveniet, nam?</p>
+
+</div>
+<div class="main"id="newsletter">
+    <h1>Newsletter</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis atque voluptatibus, repudiandae quaerat nisi velit, labore quidem consequatur eligendi doloribus odit nostrum impedit sit asperiores totam omnis temporibus expedita dolor.</p>
+</div>
+<div class="main" id="profile">
+    <h1>Profile</h1>
+    <p>Lorem ipsum dolor sit amet consectetur 
+         elit. Non labore aperiam quos velit soluta officiis, perferendis praesentium autem cupiditate, magnam fugiat amet esse atque recusandae reiciendis possimus ut, magni mollitia!</p>
+
+</div>
+<div class="main"id="settings">
+    <h1>Settings</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates iusto officiis magni quasi nostrum? Odio alias, eum exercitationem ipsum omnis repudiandae laborum voluptates. Ex nobis placeat reiciendis aspernatur possimus perspiciatis!</p>
+</div>
+
+<div class="main" id="help">
+    <h1>Help</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque debitis praesentium eligendi excepturi facilis quam autem, unde inventore dolorem necessitatibus et minus, nisi dignissimos vel laboriosam! Soluta, aliquid excepturi.</p>
+</div>
+
+
+
+
+
+
+</div>
+
+<!-- java script include -->
+    <script src="admin.js"></script>
+</body>
+</html>
