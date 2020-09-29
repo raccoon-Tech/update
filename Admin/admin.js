@@ -49,6 +49,7 @@ function openNav(evt,navName){
     evt.currentTarget.className += "active";
 
 }
+CKEDITOR.replace('editor1');
 
 
 
