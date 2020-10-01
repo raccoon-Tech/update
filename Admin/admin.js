@@ -49,8 +49,10 @@ function openNav(evt,navName){
     evt.currentTarget.className += "active";
 
 }
-CKEDITOR.replace('editor1');
-
-
-
-
+CKEDITOR.replace('post-body',{
+    extraPlugins: 'placeholder',
+    height:220
+});
+var config = {};
+config.placeholder = 'input post here...';
+CKEDITOR.replace('post-body' , config);
